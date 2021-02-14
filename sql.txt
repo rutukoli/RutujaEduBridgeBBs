@@ -1,0 +1,34 @@
+drop database edubridge;
+
+
+create database edubridge;
+
+
+use edubridge;
+
+
+
+create table users(userid varchar(20),
+password varchar(20),
+fname varchar(20),
+lname varchar(20),email varchar(20)); 
+
+
+
+desc users;
+
+select * from users;
+
+
+
+
+
+create table detail(userid varchar(20),
+pwd varchar(20),fname varchar(20));
+
+);
+
+ 
+desc details;
+
+select * from details;
